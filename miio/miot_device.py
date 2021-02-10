@@ -1,6 +1,6 @@
 import logging
 
-from .device import Device
+from .device import Device, DeviceStatus  # noqa: F401
 
 _LOGGER = logging.getLogger(__name__)
 
